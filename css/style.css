@@ -1,0 +1,109 @@
+.mdl-card {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mdl-card__title-text
+{
+  text-align: center;
+}
+body{
+  background-image:url(../img/bk.jpg);
+}
+#sign-info {
+  color: #00BCD4;
+  font-size: 120%;
+}
+
+#user-info {
+  padding: 10px;
+  width: 216px;
+  box-sizing: border-box;
+}
+
+#user-pic {
+  padding:10px;
+  width: 72px;
+  box-sizing: border-box;
+}
+
+input(type="password") {
+  font:large;
+  font-size:150%;
+}
+
+.demo-avatar {
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+}
+#ser-info ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+#ser-info ul li {
+    font-family: Roboto;
+    /*font-size: 120%;*/
+    /*font-weight: 300;*/
+    /*margin-bottom: 10px;*/
+    line-height: 24px;
+}
+
+
+
+.message-pic{
+  width:30px;
+  height:30px;
+  padding: 0px;
+  margin:0px 10px 0px 0px;
+}
+.userpic{
+  margin:0px 0px 0px 10px;
+}
+#user-info ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+#user-info ul li {
+    font-family: Roboto;
+    line-height: 24px;
+}
+#talk ul {
+  list-style: none;
+  margin: 0px;
+  padding: 20px 20px 20px 0px;
+  height: 300px;
+  overflow: auto;
+}
+#talk ul li {
+    font-family: Roboto;
+    font-size: 120%;
+    font-weight: 300;
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+#talk ul li:last-child {
+    margin: 0px;
+}
+#talk ul .example-chat-username {
+    margin-right: 10px;
+}
+#talk ul .usermessage{
+  margin-right: 0px;
+  margin-left: 10px;
+}
+.mine{
+  text-align: right;
+}
+.imginfo-color{
+  height:20px;
+  margin: 0px;
+  padding: 0px;
+  color:#fcb962;
+}
+.example-chat-messages li
+{
+  color:#00AEAE;
+}
